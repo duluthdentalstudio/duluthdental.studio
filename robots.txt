@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://duluthdentalstudio.com/sitemap.xml
+Sitemap: https://duluthdentalstudio.netlify.app/sitemap.xml

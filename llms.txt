@@ -1,2 +1,13 @@
 # Duluth Dental Studio
+
 > Comprehensive family oral healthcare practice serving patients of all ages in Duluth, Georgia.
+
+## Core Information
+- Location: 3575 Koger Blvd, Suite 160, Duluth, GA 30096
+- Services: General Dentistry, Pediatric Dentistry, Cosmetic Dentistry, Restorative Dentistry, Dental Implants, Clear Aligners, Emergency Care.
+- Website: https://duluthdentalstudio.netlify.app/
+
+## Key Pages
+- [Home Page](https://duluthdentalstudio.netlify.app/index.html): Overview of services, mission, vision, and patient benefits.
+- [About Us](https://duluthdentalstudio.netlify.app/about.html): Practice history, technology integration, and patient care philosophy.
+- [Contact Us](https://duluthdentalstudio.netlify.app/contact.html): Office location, hours, appointment scheduling, and emergency inquiry forms.

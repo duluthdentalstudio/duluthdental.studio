@@ -2,11 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | Duluth Dental Studio</title>
+  <meta property="og:title" content="Contact Us | Duluth Dental Studio">
+  <meta property="og:description" content="Get in touch with Duluth Dental Studio to book an appointment or inquire about our comprehensive dental services.">
+  <meta property="og:image" content="logo.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Contact Duluth Dental Studio</h1>
-  <p>3575 Koger Blvd, Suite 160, Duluth, GA 30096</p>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Duluth Dental Studio Logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <h1>Contact Duluth Dental Studio</h1>
+    <p>We are here to answer your questions and manage your dental care.</p>
+  </section>
+
+  <section class="container animate-on-scroll">
+    <div class="grid-2">
+      <div>
+        <h2 class="section-title" style="text-align: left;">Get In Touch</h2>
+        
+        <div class="info-card">
+          <h3>Location</h3>
+          <p>3575 Koger Blvd, Suite 160<br>Duluth, GA 30096</p>
+        </div>
+
+        <div class="info-card">
+          <h3>Office Hours</h3>
+          <p>Monday - Thursday: 8:00 AM - 5:00 PM</p>
+          <p>Friday: 8:00 AM - 2:00 PM</p>
+          <p>Saturday - Sunday: Closed</p>
+        </div>
+
+        <div class="info-card">
+          <h3>Appointments & Emergencies</h3>
+          <p>Same-day appointments available for patients who call before noon.</p>
+          <p>Emergency exams and free second opinions available.</p>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h2 style="color: var(--primary-blue); margin-bottom: 1.5rem;">Send Us a Message</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" required placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" required placeholder="(770) 000-0000">
+          </div>
+          <div class="form-group">
+            <label for="message">How can we help you?</label>
+            <textarea id="message" rows="5" required placeholder="Tell us about your dental needs or preferred appointment times..."></textarea>
+          </div>
+          <button type="submit" class="btn" style="width: 100%;">Submit Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div>
+        <h3>Duluth Dental Studio</h3>
+        <p>Providing high-quality, personalized dental care for patients of all ages in Duluth, GA.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="contact.html">Contact Us</a></p>
+      </div>
+      <div>
+        <h3>Office Hours</h3>
+        <p>Monday - Thursday: 8:00 AM - 5:00 PM</p>
+        <p>Friday: 8:00 AM - 2:00 PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Duluth Dental Studio. All Rights Reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
